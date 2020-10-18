@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`templates`(`id`,`name`,`subject`,`content`,`description`,`status`,`created`,`updated`) VALUES ( NULL,'notify_expire_gold_account','Notify Expire Gold Account','Hi %name%, \r\nYour %account_type% account with %subject% subject is going to expire %remain%.','notify expire gold account with subject','0','2013-02-18 12:02:57',NULL); 

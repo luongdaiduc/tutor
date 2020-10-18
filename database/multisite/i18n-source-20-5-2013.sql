@@ -1,0 +1,15 @@
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('validation', 'This subject has already existed'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Your message has been sent to admin successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Link to reset your password has been sent to your mail'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Reset your password successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'This link has expired'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Invalid Link'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'New activate link has been sent to your mail'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Change your login detail successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Change your contact detail successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Change your advertise detail successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Rating successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'You had canceled upgrade process. Upgrade your account failed'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'Upgrade your account successfully'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'You have successfully activated your advertisement'); 
+INSERT INTO `i18n_source_messages` (`category`, `message`) VALUES ('alert message', 'You have successfully hidden your advertisement'); 

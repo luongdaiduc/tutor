@@ -1,0 +1,1 @@
+var CKEDITOR_BASEPATH="/assets/9874af0e/";

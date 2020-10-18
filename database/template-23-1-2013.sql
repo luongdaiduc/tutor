@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`templates`(`id`,`name`,`subject`,`content`,`description`,`status`,`created`,`updated`) VALUES ( NULL,'resend_activate_link','Resend Activate Link','Hi %name%, here is your new activate account link %url%','resend activate account link','0','2013-01-23 15:52:31',NULL); 

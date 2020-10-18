@@ -1,0 +1,32 @@
+body {
+	    color: #333333;
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	    font-size: 14px;
+	    line-height: 14px;
+	}
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}
+
+.table {
+	    margin-bottom: 20px;
+	    width: 100%;
+	}
+.grid-view .checkbox-column {
+    width: 15px;
+}
+	
+.table th, .table td {
+	border: 1px solid #DDDDDD;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    padding: 2px;
+}
+	
+.fs20 {
+	font-size: 16px;
+}

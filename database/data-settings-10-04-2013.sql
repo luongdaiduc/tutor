@@ -1,0 +1,1 @@
+INSERT INTO `settings` (`name`, `value`) VALUES ('google_analytics_account', 'Google Analytics Account'); 

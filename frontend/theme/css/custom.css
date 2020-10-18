@@ -1,0 +1,512 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 70px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+.bs-docs-sidenav {
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li > a {
+  display: block;
+  *width: 190px;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+}
+.bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  text-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+.bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+  background-color: #f5f5f5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+  background-image: url(/img/glyphicons-halflings-white.png);
+  opacity: 1;
+}
+.bs-docs-sidenav.affix {
+  top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+body
+{
+padding-bottom: 0px
+}
+
+.small-search
+{
+	margin-bottom: 20px;
+}
+
+.hero-unit 
+{
+	padding: 25px;
+}
+
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+ul.steps
+{
+  list-style: none;  
+  overflow: hidden;  
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+ul.steps li
+{
+  float: left;
+  padding: 10px;
+  color: silver;
+  background-color: #F6F6F6;
+  margin-right: 10px;
+  width: 120px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-image: url('../img/icon_navigation.png');
+  background-repeat: no-repeat;
+  background-position: 5px 18px;
+  padding-left: 20px;
+}
+
+ul.steps li span {
+font-size: 12px;
+display: block;
+}
+
+ul.steps li.active
+{
+  color:  #999;
+}
+
+/* Left Nav List
+-------------------------------------------------- */
+.tutor-nav-list
+{
+  padding-left: 0px;
+}
+
+
+
+/* Tabs
+-------------------------------------------------- */
+.nav-tabs-equal> li
+{
+  width: 120px;
+}
+
+
+/* Profile Description List
+-------------------------------------------------- */
+.tutor-profile-dl dt
+{
+    width: 90px;
+}
+
+.tutor-profile-dl dd
+{
+  margin-left: 100px;  
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.footer
+{
+padding: 20px 5px;
+margin-top: 30px;
+border-top: 1px solid #E5E5E5;
+background-color: whiteSmoke;
+}
+
+.footer ul li {
+display: inline;
+float: left;
+margin: 0 10px 2px 0;
+}
+
+/* input
+-------------------------------------------------- */
+
+.input-xmini
+{
+  width: 18px;
+}
+
+.input-minime
+{
+   width: 70px;
+}
+
+/* button
+-------------------------------------------------- */
+
+.btn-aligned
+{
+  margin-top:0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btn-rnd-right
+{
+  -webkit-border-radius-right:5px;
+  -webkit-border-radius-left:5px;
+  -moz-border-radius-right:5px;
+  -moz-border-radius-left:5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* tables
+-------------------------------------------------- */
+
+.table-nonfluid {
+   width: auto;
+}
+
+
+/* search navigator
+-------------------------------------------------- */
+
+.r-left-pane {
+width: 198px;
+padding: 0;
+margin-right: 0;
+}
+
+.guided-nav {
+border-bottom: 1px solid #BCBCBC;
+float: left;
+}
+
+.dimension {
+border-top: 1px solid #BCBCBC;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+font-size: 11px;
+float: left;
+margin-right: 1px;
+}
+
+.dimension-summary {
+padding: 10px 24px 10px 8px;
+position: relative;
+cursor: pointer;
+background: #EEE;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,whiteSmoke), color-stop(100%,#E9E9E9));
+border-top: 1px solid white;
+float: left;
+width: 165px;
+}
+
+.dimension-selection {
+display: none;
+border-top: 1px solid #BCBCBC;
+background: white;
+padding: 8px 10px 6px 12px;
+position: relative;
+width: 175px;
+float: left;
+}
+
+.dimension-summary .label {
+font-weight: bold;
+font-size: 13px;
+display: inline-block;
+line-height: 13px;
+color: #656565;
+text-shadow: 0 1px 0 #F6F6F6;
+}
+
+.dimension-summary .toggle-panel {
+width: 11px;
+height: 7px;
+text-indent: -10000px;
+display: block;
+background: url("/assets/img/sprite-chrome.png") no-repeat -151px -152px;
+position: absolute;
+top: 12px;
+right: 12px;
+}
+
+.dimension-summary .value {
+display: block;
+color: #0072BD;
+width: 140px;
+margin-top: 3px;
+}
+
+.dimension-selection .arrow {
+position: absolute;
+top: -7px;
+left: 10px;
+display: block;
+width: 11px;
+height: 7px;
+background: url("/carcontent/cs/listing-page/final/sprite-chrome.png") no-repeat -150px -104px;
+}
+
+.dimension-selection .checkbox-list li {
+overflow: hidden;
+zoom: 1;
+margin: 5px 0;
+line-height: 14px;
+}
+
+.dimension-selection .checkbox-list input[type="checkbox"] {
+margin: 0;
+padding: 0;
+float: left;
+}
+
+.dimension-selection .checkbox-list label {
+float: left;
+margin-left: 5px;
+width: 150px;
+}
+
+.errorSummary ul{
+	color: red;
+	list-style: none;
+}
+
+.alert-success, .alert-error {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 14px;
+}
+
+#loading_image {
+   	height: 100px;
+   	width: 100px;
+   	position: fixed;
+   	z-index: 1000;
+   	left: 60%;
+   	margin: -25px 0 0 -25px;
+}
+
+.block {
+	border-top:1px solid #EEEEEE;
+}
+.title_block {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+div.star-rating
+{
+    height: 21px!important;
+    width: 21px!important;
+}
+
+div.star-rating a
+{
+    background: transparent url('../img/star-off.png') no-repeat !important;
+    width: 21px!important;
+}
+
+div.star-rating-hover a
+{
+    background: transparent url('../img/star-on.png') no-repeat !important;
+}
+
+div.star-rating-on a
+{
+	background: transparent url('../img/star-on.png') no-repeat !important;
+}
+
+div.inactive_star, div.active_star
+{
+    height: 21px!important;
+    width: 21px!important;
+    float: left;
+}
+div.inactive_star
+{
+	background: transparent url('../img/star-off.png') no-repeat !important;
+    width: 21px!important;
+}
+div.active_star
+{
+	background: transparent url('../img/star-on.png') no-repeat !important;
+}
+
+#error_container {
+    width: 460px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    float: left;
+}
+
+#error_type {
+    width: 100%;
+    height: 58px;
+    color: #777;
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 58px;
+    vertical-align: middle;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#error_body {
+    width: 100%;
+    height: auto;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 15px 0;
+    border-top: solid 8px #E8E8E4;
+    border-bottom: solid 8px #E8E8E4;
+}
+#error_body p.error_message {
+    color: #777;
+    margin: 0 0 15px 0;
+    font-size: 1.4em;
+}
+
+#error_body p {
+    color: #777;
+    font-size: 1.1em;
+    margin: 0 0 15px 0;
+}
+
+.level-child {
+	list-style: circle;
+}
+
+.social-login li {
+    box-shadow: 0 3px 5px #B4B4B4;
+    margin: 20px 0 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 180px;
+}
+.social-login li:hover {
+    box-shadow: none;
+}
+.social-login li:active, .social-login li:focus {
+    box-shadow: 0 0 5px red inset;
+}
+.social-login a {
+    background: url("../img/social-media-buttons.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 30px;
+    width: 180px;
+}
+.social-login .facebook {
+    background-position: 0 0;
+}
+.social-login .facebook:hover {
+    background-position: 0 -40px;
+}
+.social-login .facebook:active, .social-login .facebook:focus {
+    background-position: 0 -80px;
+}
+.social-login .twitter {
+    background-position: -190px 0;
+}
+.social-login .twitter:hover {
+    background-position: -190px -40px;
+}
+.social-login .twitter:active, .social-login .twitter:focus {
+    background-position: -190px -80px;
+}
+.social-login .google {
+    background-position: -380px 0;
+}
+.social-login .google:hover {
+    background-position: -380px -40px;
+}
+.social-login .google:active, .social-login .google:focus {
+    background-position: -380px -80px;
+}
+
+.crop {
+	max-width: none !important;
+}
+.gold {
+	border-radius: 4px;
+	background-color: #ddd;
+	padding-left: 10px; padding-right: 10px; padding-top: 15px;
+	padding-bottom: 5px; margin-bottom: 20px;
+}
+
+.silver {
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}

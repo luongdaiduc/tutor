@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`settings`(`id`,`name`,`value`,`description`,`created`,`updated`) VALUES ( NULL,'default_currency_symbol','EU',NULL,NULL,NULL); 

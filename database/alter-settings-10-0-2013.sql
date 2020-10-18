@@ -1,0 +1,1 @@
+ALTER TABLE settings MODIFY COLUMN settings.value TEXT;

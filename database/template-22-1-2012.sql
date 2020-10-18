@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`templates`(`id`,`name`,`subject`,`content`,`description`,`status`,`created`,`updated`) VALUES ( NULL,'close_account','Close Account','Hi %name%, you had deleted your account at %url%.','delete account','0','2013-01-22 15:02:33',NULL);

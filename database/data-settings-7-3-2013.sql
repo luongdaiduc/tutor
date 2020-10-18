@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`settings` (`name`, `value`) VALUES ('language', 'en'); 

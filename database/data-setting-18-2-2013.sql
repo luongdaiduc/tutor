@@ -1,0 +1,1 @@
+INSERT INTO `tutor`.`settings`(`id`,`name`,`value`,`description`,`created`,`updated`) VALUES ( NULL,'city','Melbourne',NULL,NULL,NULL); 
